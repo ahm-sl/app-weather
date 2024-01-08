@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Weather city</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="container navbar navbar-expand-lg">
+      <div class="container">
+        <i class="fa-solid fa-cloud-sun-rain fa-beat-fade fa-2xl"></i>
+        <a class="navbar-brand text-black mt-4 fs-2" href="#">Weather city</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-4" id="navbarNav">
+          <ul class="rem navbar-nav ms-auto px-3">
+            <li class="nav-item ps-4 h6 fs-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ps-4 h6 fs-4">
+              <a class="nav-link active" aria-current="page" href="#">news</a>
+            </li>
+            <li class="nav-item ps-4 h6 fs-4">
+              <a class="nav-link active" aria-current="page" href="#"
+                >lives camiras</a
+              >
+            </li>
+            <li class="nav-item ps-4 h6 fs-4">
+              <a class="nav-link active" aria-current="page" href="#">photo</a>
+            </li>
+            <li class="nav-item ps-4 h6 fs-4">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container pt-3 mt-3 d-flex justify-content-center">
+      <input
+        type="search"
+        placeholder="search"
+        class="btn-secondary w-75 form-control my-2 by-3"
+      />
+      <button
+        class="btn rounded-5 fs-5 rounded-1 rounded-end btn-primary disabled px-3"
+      >
+        write the city
+      </button>
+    </div>
+
+    <div class="d-flex justify-content-center py-5">
+      <div class="row justify-content-center g-3">
+        <div
+          class="card color col-sm-6 col-lg-4 bg-opacity-50"
+          style="width: 25rem"
+        >
+          <div class="card-body bg-opacity-50">
+            <div class="d-flex justify-content-between">
+              <h5 class="card-title text-light namefirstday"></h5>
+              <h5 class="card-title text-light datefirstday"></h5>
+            </div>
+
+            <h6
+              class="mb-2 py-2 fs-1 fw-bold bg-dark opacity-75 rounded-4 text-center text-warning city"
+            ></h6>
+            <div class="">
+              <p class="text-black fw-bold fs-1 tembrecher d-inline">
+                6<sup>o</sup>c
+              </p>
+              <div class="iconfirstday text-center">
+                <img
+                  class=" "
+                  src="http://cdn.weatherapi.com/weather/64x64/day/116.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <h4 class="desweather accordion">Partly cloudy</h4>
+            <div class="d-flex justify-content-between text-light">
+              <span class="fs-4 fst-italic"
+                ><img src="gallery/icon-umberella.png" alt="" /> 20%</span
+              >
+              <span class="fs-4 fst-italic"
+                ><img src="gallery/icon-wind.png" alt="" /> 18km/h</span
+              >
+              <span class="fs-4 fst-italic"
+                ><img src="gallery/icon-compass.png" alt="" /> East</span
+              >
+            </div>
+          </div>
+        </div>
+        <!-- 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
+        <div
+          class="card color col-sm-6 mx-3 col-lg-4 text-center"
+          style="width: 25rem"
+        >
+          <div class="card-body">
+            <h5 class="card-title text-light dayscound">Card title</h5>
+            <div class="iconscoundday">
+              <img
+                class=""
+                src="http://cdn.weatherapi.com/weather/64x64/day/116.png"
+                alt=""
+              />
+            </div>
+            <p class="card-text tembrechertwo fs-4 fw-bold text-black">
+              6<sup>o</sup>c
+            </p>
+            <small class="lawTem fs-4 fw-bold text-black"
+              >11.5<sup>o</sup></small
+            >
+            <h4 class="desweatherdaytwo accordion py-4">Partly cloudy</h4>
+          </div>
+        </div>
+        <!-- 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
+        <div
+          class="card color col-sm-6 col-lg-4 text-center"
+          style="width: 25rem"
+        >
+          <div class="card-body">
+            <h5 class="card-title text-light daytherty">Card title</h5>
+            <div class="iconthertyday">
+              <img
+                class="ps-0"
+                src="http://cdn.weatherapi.com/weather/64x64/day/116.png"
+                alt=""
+              />
+            </div>
+            <p class="card-text tembrechertherty fs-4 fw-bold text-black">
+              6<sup>o</sup>c
+            </p>
+            <small class="maiTem fs-4 fw-bold text-black"
+              >11.6<sup>o</sup></small
+            >
+
+            <h4 class="desweatherdaytherty accordion py-4">Partly cloudy</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container  ">
+    <input type="search" placeholder="search" class="btn-secondary form-control my-3">
+  <div class="row ">
+
+  </div>
+</div> -->
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

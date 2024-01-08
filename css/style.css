@@ -1,0 +1,27 @@
+
+body{
+
+
+background-image: url(../gallery/49167997808_66c21357e2_o.jpg);
+background-attachment:fixed ;
+background-position: center;
+background-size: cover;
+
+}
+
+
+
+.color{
+ 
+    
+    background-color: rgba(194, 178, 253, 0.21)  ;
+}
+h4{
+
+    color: rgba(242, 172, 74, 0.913);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
